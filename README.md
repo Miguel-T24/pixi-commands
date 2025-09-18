@@ -17,6 +17,12 @@
   pixi install --locked
   ```
 
+  ## Usar el entorno
+- Entrar en la shell del entorno (ahí todo apunta a lo que definiste en Pixi):
+  ```bash
+  pixi shell
+  ```
+
 ## Buscar dependendias
 ```bash
 pixi search python
@@ -39,11 +45,6 @@ pixi search rust
   pixi list
   ```
 
-## Usar el entorno
-- Entrar en la shell del entorno (ahí todo apunta a lo que definiste en Pixi):
-  ```bash
-  pixi shell
-  ```
 - Ejecutar un comando puntual dentro del entorno, sin entrar en shell:
   ```bash
   pixi run <comando>
